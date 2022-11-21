@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'cotta';
+    src: url('../assets/font/Cotta.otf');
+}
+
+@font-face {
+    font-family: 'prosans';
+    src: url('../assets/font/Product-Sans.ttf');
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  background-color: #FAF6ED;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+tr.promo-card {
+  padding: : 10px!important;
+}
+
+.sub-title a {
+  color: #A4A4A4 !important;
+}
+
+.footer {
+  background-color: #F1EFE7;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.z-index-min {
+  z-index: -100;
+}
+
+.mt-10 {
+  margin-top: 10rem;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: 'cotta';
+  color: #506760 !important;
+  font-size: 26px;
+  line-height: 29px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+  font-family: 'prosans';
+  color: #42544D !important;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.header-text h1 {
+  font-family: 'cotta';
+  color: #506760 !important;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.02em;
+}
+
+.header-text p {
+  font-family: 'prosans';
+  font-size: 20px;
+  line-height: 24px;
+  color: #A4A4A4;
+}
+
+.header-link {
+  margin-top: 2rem;
+}
+
+.want-ramen {
+  font-family: 'cotta';
+  font-size: 22px;
+  line-height: 24px;
+  color: #FD7E1C;
+  text-decoration: none;
+}
+
+.want-ramen:hover {
+  color: #FD7E1C;
+  text-decoration: underline;
+}
+
+.card {
+  padding: 25px;
+  background-color: #FFFCF4;
+  box-shadow: 6px 4px 9px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 15px;
+}
+
+.lil-card {
+  text-align: center;
+  font-family: 'prosans';
+}
+
+.lil-card .title {
+  color: #506760;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+}
+
+.lil-card .sub-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  color: #A4A4A4;
+  text-decoration: none!important;
+}
+
+.lil-card a .sub-title {
+  color: #A4A4A4;
+  text-decoration: none!important;
+}
+
+.menu .sub-title {
+  font-family: 'prosans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #A4A4A4;
+}
+
+.menu .title {
+  font-family: 'cotta';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 31px;
+  color: #506760;
+}
+
+.menu-img {
+  max-width: 180px;
+  min-width: 100px;
+  align-self: center;
+}
+
+.menu-title {
+  font-family: 'cotta';
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  color: #506760;
+  margin-bottom: 1rem;
+}
+
+.menu-desc {
+  font-family: 'prosans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #A4A4A4;
+  margin-bottom: 0px;
+}
+
+.price {
+  font-family: 'cotta';
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  color: #506760;
+}
+
+.form-container {
+  max-width: 650px;
+  min-width: 400px;
+  padding: 45px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 6px 4px 9px rgba(0, 0, 0, 0.05);
+}
+
+.form-container form h3{
+   font-family: 'prosans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 49px;
+   letter-spacing: 0.1em;
+   color: #506760;
+}
+
+.form-container form input{
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background-color: #fff;
+  border: 1px solid #A4A4A4;
+  border-radius: 10px;
+}
+
+.form-container form .form-btn{
+   background: #FD7E1C;
+   color: #fff;
+   font-weight: 700;
+   font-size: 20px;
+   cursor: pointer;
+   width: 150px;
+   border: none;
+}
+
+.form-container form p{
+  font-family: 'prosans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #A4A4A4;
+  text-align: left;
+}
+
+.form-container form p a{
+  color:#FD7E1C;
+}
+
+.nav-col {
+  font-family: 'cotta';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #506760;
+}
+
+.desc {
+  font-family: 'prosans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #506760;
+}
+
+.btn-green {
+  background-color: #506760;
+  color: white;
+}
+
+.btn-green:hover {
+  color: white;
+}
+
+.btn-red {
+  background-color: red;
+  color white;
+}
+
+.splide__arrow {
+  background-color: #FD7E1C!important;
+}
+
+.splide__arrow svg {
+  fill: white!important;
+  height: 0.6em!important;
+  width: 0.6em!important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border-radius: 10px!important;
+}
+
+.dataTables_wrapper .dataTables_filter input:focus {
+  border-color: var(--green);
+  outline: none;
+}
+
+.dataTables_length label select {
+  border-radius: 10px!important;
+}
+
+.splide__pagination__page.is-active {
+  background: #FD7E1C!important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: left!important;
+  text-align: left!important;
+  margin-bottom: 1.5rem;
+}
+
+.dataTables_wrapper .dataTables_length {
+  float: right!important;
+}
+
+.dataTables_info {
+  display: none ;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+  margin-top: 10px;
+  float: none!important;
+  text-align: center!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: #333 !important;
+  border-radius: 10px;
+  background: var(--light)!important;
+  border: 1px solid rgba(0, 0, 0, 0.3)!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  border-radius: 10px;
+  background: var(--light) !important;
+}
+
+.jsCalendar table {
+  background-color: transparent!important;
+}
+
+.jsCalendar tbody td.jsCalendar-current {
+  background-color: var(--green)!important;
+}
+
+th .sorting_disabled {
+  border-bottom: 0px!important;
+}
+
+.promo-card {
+  border: 1px solid rgba(0, 0, 0, 0.3)!important;
+  border-radius: 20px;
+  padding: 15px!important;
+}
+
+.promo-title {
+  font-family: 'prosans';
+  font-weight: 700;
+}
+
+.promo-desc {
+  font-family: 'prosans';
+  font-weight: 500;
+  text-align: justify;
+}
+
+#content main .table-data .order table td img {
+  border-radius: 0px!important;
+  max-height: 180px!important;
+}
